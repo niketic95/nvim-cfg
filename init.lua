@@ -38,6 +38,7 @@ require('nvim-tree').setup({
     }
 })
 
+require('toggleterm').setup{}
 require('bufferline').setup{
 	options = {
 		mode = 'buffers',

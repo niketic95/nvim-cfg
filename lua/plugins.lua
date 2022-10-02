@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
     use 'mfussenegger/nvim-dap'
     use 'simrat39/rust-tools.nvim'
 	use 'akinsho/bufferline.nvim'
+	use 'akinsho/toggleterm.nvim'
 
     -- FrameWork
     use 'hrsh7th/nvim-cmp'
